@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".OpinionActivity"
+            android:name="com.aaronschraner.cst407.rotatingopinion.OpinionActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".StateActivity"
+            android:name="com.aaronschraner.cst407.rotatingopinion.StateActivity"
             android:label="@string/title_activity_state" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GenieActivity"
+            android:name="com.aaronschraner.cst407.rotatingopinion.GenieActivity"
             android:label="@string/title_activity_genie" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
