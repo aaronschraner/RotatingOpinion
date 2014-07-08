@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button1_text">Wish 1</string>
+    <string name="button2_text">Wish 2</string>
+    <string name="button3_text">Wish 3</string>
+    <string name="app_name">Rotating opinion</string>
+    <string name="opinion">I feel so tall!</string>
+    <string name="title_activity_state">StateActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_genie">GenieActivity</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="button1_text">Wish 1</string>
+    <string name="button2_text">Wish 2</string>
+    <string name="button3_text">Wish 3</string>
+    <string name="app_name">Rotating opinion</string>
+    <string name="opinion">The world looks flat.</string>
+
+</resources>
