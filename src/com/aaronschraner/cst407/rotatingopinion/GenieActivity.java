@@ -52,7 +52,6 @@ public class GenieActivity extends Activity
 		OnClickListener buttonListener = new OnClickListener() { //general purpose button listener
 			public void onClick(View v)
 			{
-				((Button)v).setClickable(false);
 				String buttonText=(String)((Button)v).getText();
 				if(buttonText.equals("Wish 1"))
 					buttonClickable[0]=false;
@@ -60,6 +59,7 @@ public class GenieActivity extends Activity
 					buttonClickable[1]=false;
 				if(buttonText.equals("Wish 3"))
 					buttonClickable[2]=false;
+				updateClickableness();
 			}
 			
 		};
@@ -118,13 +118,6 @@ public class GenieActivity extends Activity
 	
 	void updateClickableness() //ensures that button clickability is always up to date
 	{
-		b1=(Button)findViewById(R.id.button1);
-		b2=(Button)findViewById(R.id.button2);
-		b3=(Button)findViewById(R.id.button3);
-		/*b1.setClickable(buttonClickable[0]);
-		b2.setClickable(buttonClickable[1]);
-		b3.setClickable(buttonClickable[2]);*/
-		
 		b1.setEnabled(buttonClickable[0]);
 		b2.setEnabled(buttonClickable[1]);
 		b3.setEnabled(buttonClickable[2]);
