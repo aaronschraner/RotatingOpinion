@@ -121,10 +121,13 @@ public class GenieActivity extends Activity
 		b1=(Button)findViewById(R.id.button1);
 		b2=(Button)findViewById(R.id.button2);
 		b3=(Button)findViewById(R.id.button3);
-		b1.setClickable(buttonClickable[0]);
+		/*b1.setClickable(buttonClickable[0]);
 		b2.setClickable(buttonClickable[1]);
-		b3.setClickable(buttonClickable[2]);
+		b3.setClickable(buttonClickable[2]);*/
 		
+		b1.setEnabled(buttonClickable[0]);
+		b2.setEnabled(buttonClickable[1]);
+		b3.setEnabled(buttonClickable[2]);
 	}
 	private void restoreButtons() //reload button states from XML file
 	{
